@@ -1,0 +1,107 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #363738;
+}
+
+.contentHtml {
+    padding: 1rem;
+    background-color: rgb(209, 208, 208);
+    height: 100vh;
+    width: 95vw 95vh;
+}
+
+.content {
+    width: 50vh;
+    padding: .6rem;
+    background-color: rgb(226, 223, 223);
+    height: 55vh;
+    margin-left: 50px;
+    border-radius: 2rem;
+    list-style: none;
+    position: relative;
+}
+
+.list {
+    height: 1vh;
+    list-style: none;
+    margin-top: 21px;
+    margin-bottom: 21px;
+}
+
+.name {
+    text-transform: uppercase;
+    list-style: none;
+}
+
+.btnBack {
+    color: aliceblue;
+    width: 5%;
+}
+
+.logoCard {
+    width: 20%;
+    object-fit: cover;
+    object-position: bottom;
+    align-self: center;
+}
+
+.typePoke {
+    background-color: white;
+    list-style: none;
+    color: black;
+    font-size: .8rem;
+    filter: brightness(1.1);
+    width: 58px;
+    border-radius: 1rem;
+}
+
+.content .img-pokemon {
+    width: 50%;
+    align-self: flex-end;
+}
+
+.description {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+@media screen and (min-width: 380px) {
+    .content {
+        max-width: 380px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+        align-self: center;
+    }
+    .logoCard {
+        max-width: 380px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+        align-self: center;
+    }
+}
+
+@media screen and (min-width: 586px) {
+    .content {
+        max-width: 586px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+        align-self: center;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+        align-self: center;
+    }
+}
